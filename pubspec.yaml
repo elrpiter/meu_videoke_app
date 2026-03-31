@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  audioplayers: ^5.2.1      # Para tocar o playback
+  record: ^5.1.0            # Para acessar o microfone
+  pitch_detector_dart: ^0.0.7 # Opcional: para detectar a nota real (Pitch)
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
